@@ -1,12 +1,14 @@
-## Micronaut 2.5.1 Documentation
+# Micronaut Cassandra Graal
 
-- [User Guide](https://docs.micronaut.io/2.5.1/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.5.1/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.5.1/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+Test application for Micronaut Cassandra and GraalVM.
 
-## Feature http-client documentation
+To run Cassandra in Docker:
 
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+```
+docker run -it --rm -p 9042:9042 cassandra:3.11
+```
 
+To test the application:
+```
+curl localhost:8080/cassandra/info
+```
