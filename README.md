@@ -1,12 +1,6 @@
-## Micronaut 2.5.1 Documentation
+# Micronaut Cassandra Graal
 
-- [User Guide](https://docs.micronaut.io/2.5.1/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.5.1/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.5.1/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+:warning: **The master branch is not used.**
 
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+Checkout branches for each specific Micronaut version: `2.5.x`, `3.0.x`,,...
 
