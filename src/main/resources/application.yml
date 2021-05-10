@@ -4,7 +4,7 @@ micronaut:
 cassandra:
   default:
     basic:
-      contact-points:
-        - "127.0.0.1:9042"
+#      contact-points:
+#        - "127.0.0.1:9042"
       load-balancing-policy:
         local-datacenter: datacenter1
