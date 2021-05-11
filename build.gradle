@@ -25,7 +25,7 @@ configurations {
         resolutionStrategy {
             eachDependency { DependencyResolveDetails details ->
                 if (details.requested.group == 'io.micronaut.cassandra') {
-                    details.useVersion '3.2.0'
+                    details.useVersion '4.0.0'
                 }
             }
         }
