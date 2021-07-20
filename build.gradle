@@ -20,18 +20,6 @@ micronaut {
     }
 }
 
-configurations {
-    all {
-        resolutionStrategy {
-            eachDependency { DependencyResolveDetails details ->
-                if (details.requested.group == 'io.micronaut.cassandra') {
-                    details.useVersion '4.0.0'
-                }
-            }
-        }
-    }
-}
-
 dependencies {
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut:micronaut-http-client")
